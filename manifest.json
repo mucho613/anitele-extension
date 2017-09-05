@@ -1,0 +1,22 @@
+{
+  "name": "あにてれ+",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "テレビ東京の動画配信サービス「あにてれ」を勝手に拡張しちゃう拡張",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://ch.ani.tv/*"
+      ],
+      "js": [
+        "content-script.js"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    "embeded-script.js"
+  ],
+  "permissions": [
+    "https://ch.ani.tv/*"
+  ]
+}
