@@ -2,11 +2,11 @@
   "name": "あにてれ+",
   "version": "0.0.1",
   "manifest_version": 2,
-  "description": "テレビ東京の動画配信サービス「あにてれ」を勝手に拡張しちゃう拡張",
+  "description": "テレビ東京の動画配信サービス「あにてれ」プレーヤーを便利にしちゃう拡張",
   "content_scripts": [
     {
       "matches": [
-        "https://ch.ani.tv/*"
+        "https://ch.ani.tv/episodes/*"
       ],
       "js": [
         "content-script.js"
